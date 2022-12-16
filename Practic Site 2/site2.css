@@ -1,0 +1,61 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+#wrapper{
+	width: 870px;
+	margin: 0px auto;
+}
+#header{
+	min-height: 200px;
+	background-image: url('pic/1.jpg');
+	position: relative;
+}
+#header #adress{
+	position: absolute;
+	top: 30px;
+	left: 200px;
+	color: white;
+	font-size: 24pt;
+	font-weight: bold;
+}
+#header #slogan{
+	position: absolute;
+	top: 65px;
+	left: 230px;
+	color: white;
+	font-size: 10pt;
+	font-weight: bold;
+}
+#left{
+	width: 200px;
+	float: left;
+	padding-left: 10px;
+}
+#left p{
+	font-size: 13px;
+	margin-top: 0;
+	text-align: justify;
+}
+#left h4{
+	margin-bottom: 0px;
+}
+#left img{
+	width: 200px;
+}
+#content{
+	margin-left: 220px;
+	padding: 15px;
+	text-align: justify;
+}
+#content h2{
+	margin-top: 0;
+}
+#footer{
+	width: 670;
+	font-size:13px;
+	text-align: center;
+	margin-left: 220px;
+	margin-top: 50px;
+	margin-bottom: 10px;
+}
